@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+		<link rel="stylesheet" href="./assets/css/burger_style.css" type="text/css" />
+		<title>Bite That Burger!</title>
+	</head>
+	<body>
+	<img src="./assets/img/logo.jpg">
+		<h1>Bite The Burger!</h1>
+<div id="burgerContainer">
+<div id = "newBurgers">
+<h3>On The Menu</h3>
+<ul>
+	<li>Item 1
+
+
+		<form action="/{{this.id}}?_method=PUT" method="POST">
+			<input type="hidden" name="devoured" value="true">
+			<button type="submit">DEVOUR!</button>
+		</form>
+	</li>
+
+</ul>
+</div>
+
+<div id="eatenBurgers">
+
+<h3>Burger's Eaten</h3>
+<ul>
+	<li>Item item</li>
+
+</ul>
+</div>
+</div>
+
+<h2>Create Your Burger!</h2>
+<form class="createBurger" action="/" method="POST">
+	<div class="form-group">
+		<input type="text" id="burger" name="name" placeholder="Burger Name Here">
+	</div>
+
+	<button type="submit">Create Burger!</button>
+</form>
+	</body>
+</html>

@@ -1,0 +1,27 @@
+{
+  "name": "sequelizeburgerbites",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CalebBuxton/sequelizeburgerbites.git"
+  },
+  "author": "Caleb Buxton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CalebBuxton/sequelizeburgerbites/issues"
+  },
+  "homepage": "https://github.com/CalebBuxton/sequelizeburgerbites#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "method-override": "^2.3.9",
+    "mysql2": "^1.4.1",
+    "sequelize": "^4.5.0",
+    "sequelize-cli": "^2.8.0"
+  }
+}

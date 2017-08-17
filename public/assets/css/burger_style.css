@@ -1,0 +1,53 @@
+li {
+	
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+form {
+	display: inline;
+	padding-left: 20px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	display: inline-block;
+}
+
+#newBurgers,
+#eatenBurgers {
+	display: inline-block;
+	margin: 20px;
+	width: 20%;
+}
+body {
+	text-align: center;
+	margin: 0;
+	background: #da9d00;
+}
+
+img {
+	margin-top: 10px;
+	max-height: 200px;
+	border-radius: 70%;
+}
+
+button {
+	border-radius: 2px;
+	padding: 5px 10px;
+	border: none;
+	background: #3a85db;
+	color: white;
+}
+
+input {
+	width: 10%;
+	margin-bottom: 10px;
+}
+
+#burgerContainer {
+	display: inline-block;
+	width: 100%;
+}
