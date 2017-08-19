@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 		<link rel="stylesheet" href="./assets/css/burger_style.css" type="text/css" />
 		<title>Bite That Burger!</title>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	</head>
 	<body>
 	<img src="./assets/img/logo.jpg">
@@ -11,15 +12,7 @@
 <div id="burgerContainer">
 <div id = "newBurgers">
 <h3>On The Menu</h3>
-<ul>
-	<li>Item 1
-
-
-		<form action="/{{this.id}}?_method=PUT" method="POST">
-			<input type="hidden" name="devoured" value="true">
-			<button type="submit">DEVOUR!</button>
-		</form>
-	</li>
+<ul id="burgerMenu">
 
 </ul>
 </div>
@@ -27,8 +20,7 @@
 <div id="eatenBurgers">
 
 <h3>Burger's Eaten</h3>
-<ul>
-	<li>Item item</li>
+<ul id="burgersEaten">
 
 </ul>
 </div>
@@ -40,7 +32,8 @@
 		<input type="text" id="burger" name="name" placeholder="Burger Name Here">
 	</div>
 
-	<button type="submit">Create Burger!</button>
+	<button type="submit" id="sendBurger">Create Burger!</button>
 </form>
 	</body>
+	<script type="text/javascript" src="./js/script.js"></script>
 </html>
