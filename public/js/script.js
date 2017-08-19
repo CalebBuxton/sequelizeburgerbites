@@ -7,7 +7,6 @@ $.ajax({
 	url: "/api/burgers",
 	method: "GET"
 }).done(function(data) {
-	console.log(data)
 	updateBurgers(data);
 })
 }
@@ -36,8 +35,6 @@ $("#sendBurger").on("click", function(evt) {
 		name: $("#burger").val().trim()
 	};
 	addBurger(newBurger);
-	console.log(newBurger)
-	console.log(newBurger.name);
 	$("#burger").val("");
 })
 
@@ -51,7 +48,6 @@ function addBurger(burger) {
 $(document).on("click", "button.menuBtn", function(evt){
 	evt.preventDefault();
 	var id = $(this)[0].id;
-	console.log(id)
 	var req = {
 		id: id
 	}
